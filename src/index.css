@@ -1,13 +1,70 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: grey solid 2px;
+  width: 800px;
+  margin: auto;
+}
+.title {
+  color: #982176;
+}
+.blogs-btn {
+  /* background-color: blueviolet; */
+  column-gap: 50px;
+  row-gap: 50px;
+  width: 200px;
+  display: flex;
+}
+.home-btn {
+  background-color: white;
+  color: grey;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.home-btn:hover {
+  color: #982176;
+}
+.blog-btn {
+  background-color: #982176;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+.blog-btn:hover {
+  background-color: coral;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+  color: #982176;
+  width: 800px;
+  margin: auto;
+}
+.content > p {
+  color: grey;
+  font-size: 22px;
 }
